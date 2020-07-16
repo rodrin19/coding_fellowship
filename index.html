@@ -1,55 +1,156 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>homepage</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-rel="stylesheet">
-<link rel="stylesheet" href="Blog/blog.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 </head>
-<header id="top-bar">
-    <img id="top-img" src="http://www.free-icons-download.net/images/a-stack-of-books-icons-68603.png"/>
-    <h1>The Story of My Life</h1>
-    <nav id="nav-bar">
-        <a href="school.html"><button id="educ">Education</button></a>
-        <a href="experience.html"><button id="work">Work Experience</button></a>
-        
-            <div class="dropdown">
-               <button class="dropbtn">Projects</button>
-                    <div class="dropdown-content">
-                        <a href="https://codepen.io/rodrin19/pens/">Codepen</a>
-                        <a href="/Users/naomirodriguez/Documents/Coding_fellowship/coding_fellowship/animations">Misc</a>
-                        <a href="projects/basicBlog.html">Mockups</a>
+<body>
 
-             </div>
-                    </div>
-                
-    </nav>
-    <hr>
-</header>
-    <body id="reggie">
-        <div class="container">
-            <div class="gallery">
-                <figure class="gallery__item gallery__item--1">
-                    <img src="Screen Shot 2020-07-15 at 9.05.47 PM.png" alt="Gallery image 1" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--2">
-                    <img src="Screen Shot 2020-07-15 at 9.41.16 PM.png" alt="Gallery image 2" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--3">
-                    <img src="Screen Shot 2020-07-15 at 10.18.32 PM.png" alt="Gallery image 3" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--4">
-                    <img src="Screen Shot 2020-07-15 at 9.47.24 PM.png" alt="Gallery image 4" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--5">
-                    <img src="Screen Shot 2020-07-15 at 9.52.06 PM.png" alt="Gallery image 5" class="gallery__img">
-                </figure>
-                <figure class="gallery__item gallery__item--6">
-                    <img src="Screen Shot 2020-07-15 at 9.43.37 PM.png" alt="Gallery image 6" class="gallery__img">
-                </figure>
-            </div>
+    <div class="container navbar">
+        <header>
+        <div class="lgo">
+            <h1>Naomi</h1>
         </div>
-            <script src="/Users/naomirodriguez/Documents/Coding_fellowship/coding_fellowship/Blog/blog.js"></script>
-    </body>
-    </html>
-    <script src="blog.js">
+
+<nav>
+         <ul>
+             <li><a href="#about">About Me</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#work">My Work</a></li>
+         </ul>
+</nav>
+</header>
+</div>
+
+<div class="container main-info-section">
+    <div class="text">
+        <h1>
+            <span>H</span>
+            <span class="m-left">i</span>
+            <span class= "m-left">,</span> 
+            <br>
+            <span>I</span>
+            <span class="m-left">'</span>
+            <span class="m-left">m</span>
+            <span class="m-left name">N</span>
+            <span class="m-left name ">a</span>
+            <span class="m-left name">o</span>
+            <span class="m-left name">m</span>
+            <span class="m-left name">i</span>
+            <span class="m-left">,</span>
+            <br>
+            <span>W</span>
+            <span class="m-left">e</span>
+            <span class="m-left">b</span>
+            <span>D</span>
+            <span class="m-left">e</span>
+            <span class="m-left">v</span>
+            <span class="m-left">e</span>
+            <span class="m-left">l</span>
+            <span class="m-left">o</span>
+            <span class="m-left">p</span>
+            <span class="m-left">e</span>
+            <span class="m-left">r</span>
+
+        
+        </h1>
+        <p> / JavaScript / React</p>
+        <a href="#contact">Contact Me</a>
+    </div>
+    <div class="profile-image">
+        <img src= "IMG_1969.jpg">
+    </div>
+</div>
+<div class="container about" id="about">
+    <h1> About</h1>
+    <div class="about-me-info">
+        <p>I am 19 years old...</p>
+    </div>
+    <img src="dotted-shape.png">
+</div>
+<div class="container skills" id="skills">
+    <h1> skills </h1>
+    <p class="skills-info"> i can do javascript and html and css...</p>
+    <div class="html">
+        <div class="tag-html">
+            <p>HTML</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-html"></div>
+        </div>
+    </div>
+
+        <div class="html">
+        <div class="tag-css">
+            <p>CSS</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-css"></div>
+        </div>
+    </div>
+
+    <div class="html">
+        <div class="tag-javascript">
+            <p>JavaScript</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-javascript"></div>
+        </div>
+    </div>
+
+    <div class="html">
+        <div class="tag-react">
+            <p>React</p>
+        </div>
+        <div class="progressbar">
+            <div class="bar-react"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container work" id=work >
+    <h1> work</h1>
+    <div class="work catergory">
+        <button id="designing" class="active">Web Designing</button>
+        <button id="animation">Web Animation</button>
+        <button id="project">React Projects</button>
+    </div>
+    <div class="category-designing showCategory">
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="3.png"></a>
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 10.01.32 PM.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 9.52.06 PM.png"></a>
+    </div>
+
+    <div class="category-designing hideCategory">
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="3.png"></a>
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 10.01.32 PM.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 9.52.06 PM.png"></a>
+    </div>
+
+    <div class="category-designing hideCategory">
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="3.png"></a>
+        <a href=""><img src="2.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 10.01.32 PM.png"></a>
+        <a href=""><img src="Screen Shot 2020-07-15 at 9.52.06 PM.png"></a>
+    </div>
+</div>
+<div class="container contact" id="contact">
+    <h1>Contact</h1>
+    <form>
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="email" placeholder="Business Email" disabled>
+        <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+        <input type="submit"
+    </form>
+</div>
+
+
+</body>
+</html>
